@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #333333;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    font-variant: small-caps;
+    color: #d1b3d6;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 50px;
+}
+
+main {
+    width: 100%;
+    height: calc(100vh - 220px);
+    padding-left: 50px;
+    overflow: auto;
+}
+
+footer { 
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+    padding-top: 40px;
+}
+
+footer a {
+    color: #36f1eb;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-shadow: 3px 3px 3px#ceecfe;
+}
+
+.menu {
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+img {
+    padding: 10px;
+    margin-inline: 5px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    cursor: pointer;    
+}
+
+img:hover {
+    opacity: .8;
+}
+
+.wrapper {
+    display: inline-block;
+    margin: 40px 40px 10px 0px;
+    font-size: 0;
+}
+
+.container {
+    width: 90px;
+    display: inline-block;
+}
+
+.one .container div{
+    background-color: rgb(255, 252, 82);
+}
+
+.two .container div{
+    background-color: rgb(83, 214, 250);
+}
+
+.three .container div{
+    background-color: rgb(241, 81, 81);
+}
+
+.four .container div{
+    background-color: rgb(97, 64, 225);
+}
+
+.five .container div{
+    background-color: rgb(246, 54, 250);
+}
+
+.square {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.top {
+    height: 90px;
+    margin-top: 0;
+}
+
+.right {
+    width: 90px;
+    margin-right: 0;
+}
